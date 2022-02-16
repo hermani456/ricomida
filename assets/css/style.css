@@ -1,0 +1,74 @@
+body{
+   font-family: 'Cabin', sans-serif;
+   background-color: var(--white);
+}
+.color-gris{
+   background-color: #373a3c;
+}
+/* color en los bordes de los botones */
+.border-color{
+   border-color: #dddddd;
+}
+.lobster-font{
+   font-family: 'Lobster', cursive;
+}
+.font-regular{
+   font-weight: 400;
+}
+.font-bold{
+   font-weight: 700;
+}
+/* baja los botones del carousel */
+.carousel-indicators {
+   position: absolute;
+   bottom: -50px;
+}
+/* redondea los botones y aplica color al boton inactivo del carousel */
+.carousel-indicators li {
+   background-color: #373a3c;
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+}
+/* cambia el color del boton activo del carousel */
+.carousel-indicators .active {
+   background-color: #000;
+}
+/* elimina la decoracion y el padding de la ul */
+.nodeco{
+   list-style: none;
+   padding-left: 0%;
+}
+/* elimina el padding que dejan los numeros de la ol */
+.deco{
+   list-style: inside decimal;
+   padding-left: 0%;
+}
+/* agrega y ajusta subrayado en los h4 */
+h4{
+   border-bottom: 1px solid;
+   display: inline-block;
+}
+/* color de texto secundario para los h4 */
+.dbl{
+   color: red;
+}
+/* aumenta el tamaño de los hr */
+hr{
+   border: 1px solid;
+}
+/* ajusta el tamaño y centra el contenido de la section newsletter */
+.news{
+   height: 30em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* centra el texto cuando la pantalla es mas pequeña que 921px */
+@media (max-width: 991px) {
+   .query {
+     text-align: center;
+   }
+ }
